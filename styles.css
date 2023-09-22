@@ -1,0 +1,47 @@
+* {
+    font-family: Gill Sans, sans-serif;
+}
+
+body {
+    background-color: hsla(345, 100%, 78%, 0.25);
+}
+
+h1 {
+    font-size: 48px;
+    text-decoration: underline;
+    margin-left: 30px;
+}
+
+a {
+    font-size: 22px;
+    margin-left: 30px;
+}
+
+.tamtam {
+    color: #455a64;
+} 
+
+.slateBlue {
+    color:SlateBlue;
+}
+
+.pink {
+    color:#FF52be;
+}
+
+.blau {
+    color:rgb(33,0,255)
+}
+
+.orange {
+    color:hsl(9, 100%, 64%)
+}
+
+.rot {
+    color:rgba(255,0,0,0.5)
+}
+
+.orange2 {
+    color:hsla(25, 100%, 64%, 0.7)
+}
+
