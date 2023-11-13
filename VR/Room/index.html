@@ -28,6 +28,39 @@
           <a-box position="0 0 -1" width="0.35" height="1.2" depth="0.2" color="#301a11"></a-box>
           <a-box position="0 -0.55 0" width="0.35" height="0.2" depth="2.4" color="#301a11"></a-box>
         </a-box>
+        
+        <!-- Uhr -->
+        <a-cylinder position="0.16 1.5 -2" rotation="0 0 -90" color="#000000" radius="0.5" height="0.05">
+          <a-cylinder position="0 0.025 0" rotation="0 0 0" color="#ffffff" radius="0.45" height="0.05"></a-circle>
+            
+            <!-- Zeiger-->
+            <a-box position="-0.165 0.025 0" height="0.01" width="0.3" depth="0.05" color="#000000" rotation="0 0 0"></a-box> <!-- Minute -->
+            <a-box position="0.05 0.025 0.052" height="0.01" width="0.2" depth="0.05" color="#000000" rotation="0 -35 0"></a-box> <!-- Stunde -->
+            <a-box position="0.09 0.025 -0.12" height="0.01" width="0.35" depth="0.02" color="#000000" rotation="0 45 0"></a-box> <!-- Sekunde -->
+            <a-entity position="-0.38 0.025 0" text="value: 12; align: center; width: 3; color: #000000" rotation="-90 0 90"></a-entity>
+            <a-entity position="0.38 0.025 0" text="value: 6; align: center; width: 3; color: #000000" rotation="-90 0 90"></a-entity>
+            <a-entity position="0 0.025 -0.38" text="value: 3; align: center; width: 3; color: #000000" rotation="-90 0 90"></a-entity>
+            <a-entity position="0 0.025 0.38" text="value: 9; align: center; width: 3; color: #000000" rotation="-90 0 90"></a-entity>
+        </a-circle>
+      </a-box>
+
+
+      <!-- Kommode -->
+      <a-box position="-3.325 0.125 -2" width="1" height=0.05 depth="2" color="#21130d">
+
+        <!-- Beine -->
+        <a-box position="-0.45 -0.075 -0.9" width="0.1" height="0.1" depth="0.2" color="#a6a19e"></a-box>
+        <a-box position="0.45 -0.075 -0.9" width="0.1" height="0.1" depth="0.2" color="#a6a19e"></a-box>
+        <a-box position="0.45 -0.075 0.9" width="0.1" height="0.1" depth="0.2" color="#a6a19e"></a-box>
+        <a-box position="-0.45 -0.075 0.9" width="0.1" height="0.1" depth="0.2" color="#a6a19e"></a-box>
+
+        <!-- Waende & Dach -->
+        <a-box position="-0.475 0.525 0" width="0.05" height="1" depth="2" color="#21130d"></a-box>
+        <a-box position="0 0.525 0.975" width="1" height="1" depth="0.05" color="#21130d"></a-box>
+        <a-box position="0 0.525 -0.975" width="1" height="1" depth="0.05" color="#21130d"></a-box>
+        <a-box position="0 1.05 0" width="1" height=0.05 depth="2" color="#21130d"></a-box>
+        
+        <!-- Fächer -->
       </a-box>
 
       
