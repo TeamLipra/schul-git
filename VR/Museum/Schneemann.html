@@ -1,0 +1,58 @@
+<html>
+  <head>
+    <script src="https://aframe.io/releases/1.4.0/aframe.min.js"></script>
+    <script src="https://unpkg.com/aframe-environment-component/dist/aframe-environment-component.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+      <!-- TODO: GARAGE UND AUTO -->
+      <!-- Boden und Decke -->
+      <a-entity id="Schneemann" position="0 0 -2.5">
+        <a-sphere color="white">
+          <!-- Knöpfe -->
+          <a-sphere color="black" position="0 0.65 0.78" radius="0.05"></a-sphere>
+          <a-sphere color="black" position="0 0.5 0.88" radius="0.05"></a-sphere>
+
+          <a-sphere color="white" position="0 1 0" radius="0.8">
+            <!-- Arme -->
+            <a-box color="#8B4513" position="-0.9 0.4 0.2" width="0.8" height="0.1" depth="0.1" rotation="0 25 -33">
+              <a-box color="#8B4513" position="-0.5 0.07 0" width="0.3" height="0.1" depth="0.1" rotation="0 0 -33"></a-box>
+              <a-box color="#8B4513" position="-0.5 0 0" width="0.4" height="0.1" depth="0.1" rotation="0 0 0"></a-box>
+              <a-box color="#8B4513" position="-0.5 -0.07 0" width="0.3" height="0.1" depth="0.1" rotation="0 0 33"></a-box>
+            </a-box>
+            <a-box color="#8B4513" position="0.9 0.4 0.2" width="0.8" height="0.1" depth="0.1" rotation="0 -25 33">
+              <a-box color="#8B4513" position="0.5 0.07 0" width="0.3" height="0.1" depth="0.1" rotation="0 0 33"></a-box>
+              <a-box color="#8B4513" position="0.5 0 0" width="0.4" height="0.1" depth="0.1" rotation="0 0 0"></a-box>
+              <a-box color="#8B4513" position="0.5 -0.07 0" width="0.3" height="0.1" depth="0.1" rotation="0 0 -33"></a-box>
+            </a-box>
+
+            <!-- Knöpfe -->
+            <a-sphere color="black" position="0 -0.15 0.79" radius="0.05"></a-sphere>
+            <a-sphere color="black" position="0 0.05 0.81" radius="0.05"></a-sphere>
+            <a-sphere color="black" position="0 0.25 0.77" radius="0.05"></a-sphere>
+            <a-sphere color="black" position="0 0.45 0.68" radius="0.05"></a-sphere>
+
+            <a-sphere color="white" position="0 1 0" radius="0.6">
+              <!-- Augen -->
+              <a-sphere color="black" position="0.25 0.15 0.52" radius="0.05"></a-sphere>
+              <a-sphere color="black" position="-0.25 0.15 0.52" radius="0.05"></a-sphere>
+              <!-- Mund -->
+              <a-sphere color="black" position="-0.3 -0.15 0.48" radius="0.05"></a-sphere>
+              <a-sphere color="black" position="-0.2 -0.18 0.525" radius="0.05"></a-sphere>
+              <a-sphere color="black" position="-0.1 -0.2 0.535" radius="0.05"></a-sphere>
+              <a-sphere color="black" position="0 -0.21 0.54" radius="0.05"></a-sphere>
+              <a-sphere color="black" position="0.1 -0.2 0.535" radius="0.05"></a-sphere>
+              <a-sphere color="black" position="0.2 -0.18 0.525" radius="0.05"></a-sphere>
+              <a-sphere color="black" position="0.3 -0.15 0.48" radius="0.05"></a-sphere>
+
+              <!-- Nase -->
+              <a-cone color="#FF5733" position="0 0 0.4" radius-bottom="0.08" radius-top="0.02" rotation="90 0 0"></a-cone>
+            </a-sphere>
+          </a-sphere>
+        </a-sphere>
+      </a-entity>
+      <a-light type="ambient" color="#FFFFFF"></a-light>
+      <a-sky color="#111111"></a-sky>
+    </a-scene>
+  </body>
+</html>
