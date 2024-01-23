@@ -1,0 +1,45 @@
+<html>
+  <head>
+    <script src="https://aframe.io/releases/1.4.0/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+      <a-entity id="Biene" position="0 0 -0.35">
+        <a-box width="0.5" height="0.5" depth="0.2" color="#5f3225">
+          <a-box position="0 0 0.15" width="0.5" height="0.5" depth="0.1" color="#ecc251">
+            <a-box position="0 0 0.1" width="0.5" height="0.5" depth="0.1" color="#5f3225">
+              <a-box position="0 0 0.1" width="0.5" height="0.5" depth="0.1" color="#ecc251">
+                <a-box position="0 0 0.1" width="0.5" height="0.5" depth="0.1" color="#5f3225">
+                  <a-box position="0 0 0.15" width="0.5" height="0.5" depth="0.2" color="#ecc251">
+                    <!-- Gesicht -->
+                      <a-box position="0 0 0.15" width="0.25" height="0.4" depth="0.1" color="#ecc251"></a-box>
+                      <a-box position="0 0.15 0.15" width="0.5" height="0.2" depth="0.1" color="#ecc251"></a-box>
+                      <a-box position="0 -0.2 0.15" width="0.5" height="0.1" depth="0.1" color="#ecc251"></a-box>
+                      <a-box position="-0.225 0 0.15" width="0.05" height="0.5" depth="0.1" color="#ecc251"></a-box>
+                      <a-box position="0.225 0 0.15" width="0.05" height="0.5" depth="0.1" color="#ecc251"></a-box>
+                      <!-- Augen -->
+                      <a-box position="-0.16 -0.05 0.15" width="0.075" height="0.2" depth="0.1" color="#000000"></a-box>
+                      <a-box position="0.16 -0.05 0.15" width="0.075" height="0.2" depth="0.1" color="#000000"></a-box>
+                  </a-box>
+                </a-box>
+                <!-- Flügel -->
+                <a-box position="0.3 0.3 0" color="#ffffff" height="0.05" width="0.35" depth="0.35" rotation="0 0 20"></a-box>
+                <a-box position="-0.3 0.3 0" color="#ffffff" height="0.05" width="0.35" depth="0.35" rotation="0 0 -20"></a-box>
+
+                <!-- Beine -->
+                <a-box position="0.1 -0.275 0.2" color="#000000" height="0.05" width="0.01" depth="0.1"></a-box>
+                <a-box position="-0.1 -0.275 -0.2" color="#000000" height="0.05" width="0.01" depth="0.1"></a-box>
+                <a-box position="0.1 -0.275 -0.2" color="#000000" height="0.05" width="0.01" depth="0.1"></a-box>
+                <a-box position="-0.1 -0.275 0.2" color="#000000" height="0.05" width="0.01" depth="0.1"></a-box>
+              </a-box>
+            </a-box>
+          </a-box>
+          <!-- Stachel -->
+          <a-box position="0 -0.05 -0.15" color="#000000" height="0.1" width="0.1" depth="0.1"></a-box>
+        </a-box>
+      </a-entity>
+      <a-light position="0 3 0" type="ambient" color="#FFFFFF"></a-light>
+      <a-sky color="#111111"></a-sky>
+    </a-scene>
+  </body>
+</html>
